@@ -31,8 +31,8 @@ app.get('/', async (req, res) => {
         clip: {
             x: rect.left,
             y: rect.top,
-            width: rect.width * 2,
-            height: rect.height * 2
+            width: rect.width,
+            height: rect.height
         }
     });
 
