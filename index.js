@@ -8,7 +8,7 @@ app.get('/', async (req, res) => {
 
         const browser = await puppeteer.launch({
             headless: true,
-            args: ['--unlimited-storage', '--disable-dev-shm-usage', '--no-sandbox', '--disable-setuid-sandbox']
+            args: ['--unlimited-storage', '--disable-dev-shm-usage', '--no-sandbox', '--disable-setuid-sandbox', '--window-size=1366x657']
         });
 
         const page = await browser.newPage();
