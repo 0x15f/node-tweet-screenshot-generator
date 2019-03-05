@@ -12,7 +12,7 @@ app.get('/', async (req, res) => {
 
 	const page = await browser.newPage();
 
-	await page.goto(decodeURIComponent(req.query.url), {waitUntil: ['load'], timeout: 10});
+	await page.goto(decodeURIComponent(req.query.url), {waitUntil: ['load'], timeout: 30000});
 
     const selector = '.tweet[data-tweet-id="' + req.query.id + '"]';
 
