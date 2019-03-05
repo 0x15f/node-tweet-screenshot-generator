@@ -1,13 +1,11 @@
 {
-  "name": "pdf.lynndigital.com",
+  "name": "s1.printmytweets.coffee",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
     "express": "^4.16.4",
-    "pdf-merge": "^1.2.0",
-    "puppeteer": "^1.12.2",
-    "uniqid": "^5.0.3"
+    "screenshot-tweet": "^1.1.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -15,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/0x15f/node-pdf-generator.git"
+    "url": "git+https://github.com/0x15f/node-tweet-screenshot-generator.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/0x15f/node-pdf-generator/issues"
+    "url": "https://github.com/0x15f/node-tweet-screenshot-generator/issues"
   },
-  "homepage": "https://github.com/0x15f/node-pdf-generator#readme"
+  "homepage": "https://github.com/0x15f/node-tweet-screenshot-generator#readme"
 }
