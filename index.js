@@ -18,7 +18,7 @@ app.get('/', async (req, res) => {
         page.setViewport({
             width: 1366,
             height: 657,
-            deviceScaleFactor: 3
+            deviceScaleFactor: 5
         });        
 
         const selector = '.tweet[data-tweet-id="' + req.query.id + '"]';
