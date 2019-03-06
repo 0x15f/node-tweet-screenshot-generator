@@ -16,9 +16,8 @@ app.get('/', async (req, res) => {
         await page.goto(decodeURIComponent(req.query.url), {waitUntil: ['load'], timeout: 30000});
 
         page.setViewport({
-            width: 1366,
-            height: 657,
-            deviceScaleFactor: 5
+            width: 3600,
+            height: 2400
         });        
 
         const selector = '.tweet[data-tweet-id="' + req.query.id + '"]';
