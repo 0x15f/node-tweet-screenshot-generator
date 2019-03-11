@@ -56,6 +56,8 @@ app.get('/', async (req, res) => {
             }
         });
 
+        await browser.close();
+
         res.type('image/png');
         res.send(buffer);
     }
