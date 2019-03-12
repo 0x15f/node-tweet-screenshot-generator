@@ -64,6 +64,9 @@ app.get('/', async (req, res) => {
     catch(er)
     {
         console.log(er);
+        if(typeof browser !== 'undefined') {
+            await browser.close();
+        }
         res.send('error');
     }
 });
